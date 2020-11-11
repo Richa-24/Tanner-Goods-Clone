@@ -1,0 +1,48 @@
+.disFlex{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    padding: 3%;
+}
+
+.brand{
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 12px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.price{
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 3.6;
+}
+
+.productDetails{
+    margin-left: 15%;
+}
+
+.button button{
+    border: 1px solid gray;
+    background-color: white;
+    margin-top: 25px;
+    padding: 8px 10px 8px 10px;  
+    cursor: pointer;  
+    margin-right: 20px;
+}
+
+.button button:hover{
+   background-color: black;
+   color: white;
+}
+
+.emptyImage{
+    margin:30px auto 0 auto;
+    display: block; 
+}

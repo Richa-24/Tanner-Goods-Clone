@@ -1,0 +1,67 @@
+.gridImg img{
+    width: 300px;
+    height: 300px;
+}
+
+.gridImg{
+    display: grid;
+    grid-template: auto auto / auto auto auto auto auto;
+    grid-gap: 10px 10px 
+}
+
+.quickShop{
+    width: 80%;
+    height: 20px;
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+.gridImg img:hover{
+    opacity: 0.5;
+    display: block;
+    cursor: pointer;
+}
+
+.title{
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.brandName{
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 10px;
+    color: #c5b08f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.price{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.explore{
+    font-weight: bold;
+    margin: 70px 0 60px 0;
+    text-align: center;
+}
+
+.viewAll{
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+    padding: 11px 20px 8px 20px;
+    margin-top: 55px;
+    
+}
+
+

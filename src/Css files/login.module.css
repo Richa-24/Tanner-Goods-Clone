@@ -1,0 +1,38 @@
+.login{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.label{
+    line-height: 2.6;
+    margin-left: 37%;
+    line-height: 3.0;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.input{
+    justify-content: center;
+    background-color: white;
+    width: 25%;
+    border: 1px solid rgb(192, 184, 184);
+    padding: 8px 10px;
+    line-height: 1.6;
+}
+
+.button{
+    width: 27%;
+    background-color: rgb(54, 54, 54);
+   
+    color: white;
+    padding: 12px 13px;
+    letter-spacing: 0.2rem;
+    margin: 45px;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.8;
+}

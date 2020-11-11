@@ -1,0 +1,13 @@
+.notFound1, .notFound2{
+    font-family: 'Turret Road', cursive;
+    font-size: 85px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    margin-top: 50px;
+}
+
+.notFound2{
+    letter-spacing: 0.2em;
+    font-size: 45px;
+
+}
