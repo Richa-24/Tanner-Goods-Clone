@@ -27,6 +27,13 @@ export default class Routes extends React.Component {
         }
     }
 
+    componentDidMount() {
+        console.log(window.location.href);
+        if (window.location.href[(window.location.href.length - 1)] == "/") {
+            window.location.href = "/maintanner"
+        }
+    }
+
     render() {
         return (
             <>
