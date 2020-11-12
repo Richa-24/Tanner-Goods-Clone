@@ -18,7 +18,7 @@ export default class NavbarLinks extends React.Component {
                 <div className={style.navbar}>
 
                     <div className={style.logo}>
-                        <NavLink to="/maintanner"><img src="https://cdn.shopify.com/s/files/1/0044/9802/files/Tanner-Goods-Mazama-Logo_150x.png?v=1600190052" /></NavLink>
+                        <NavLink to="/maintanner"><img src="https://cdn.shopify.com/s/files/1/0044/9802/files/Tanner-Goods-Mazama-Logo_150x.png?v=1600190052" alt="Tanner logo" /></NavLink>
                     </div>
 
                     <div className={style.links}>

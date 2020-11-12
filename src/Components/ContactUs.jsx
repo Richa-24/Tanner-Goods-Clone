@@ -2,9 +2,6 @@ import React from 'react'
 import style from '../Css files/notFound.module.css'
 
 export default class ContactUs extends React.Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         return (

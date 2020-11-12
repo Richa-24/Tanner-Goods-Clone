@@ -30,7 +30,6 @@ class ProductDetails extends React.Component {
 
 
     render() {
-        const { match } = this.props
         const { handleCart } = this.context
         const { data } = this.state
         console.log(data)
@@ -43,7 +42,7 @@ class ProductDetails extends React.Component {
                 <div className={style.flex}>
 
                     <div className={style.image}>
-                        <img src={data.image} width="600px" height="500px" />
+                        <img src={data.image} width="600px" height="500px" alt="product" />
                     </div>
 
                     <div className={style.rightDetails}>

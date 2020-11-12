@@ -21,14 +21,14 @@ class ShoppingCart extends React.Component {
                 {!isAuth ? <Redirect to="/login" /> : null}
 
                 <div>
-                    {cartArray.length == 0 ? (
-                        <img className={style.emptyImage} src="https://chillydraji.files.wordpress.com/2015/08/empty_cart.jpeg" />
+                    {cartArray.length === 0 ? (
+                        <img className={style.emptyImage} src="https://chillydraji.files.wordpress.com/2015/08/empty_cart.jpeg" alt="empty cart" />
                     ) :
                         (
                             cartArray.map((item) => {
                                 return (
                                     <div key={item.id} className={style.disFlex}>
-                                        <div><img src={item.image} width="200px" height="200px" /></div>
+                                        <div><img src={item.image} width="200px" height="200px" alt="cart items" /></div>
                                         <div className={style.productDetails}>
                                             <div className={style.brand}>{item.brand}</div>
                                             <div className={style.title}>{item.title}</div>

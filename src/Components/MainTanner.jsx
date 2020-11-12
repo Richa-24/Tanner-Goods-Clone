@@ -21,7 +21,7 @@ class MainTanner extends React.Component {
             <>
                 <div>
                     <div>
-                        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width="100%" height="600px" />
+                        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Main Img" width="100%" height="600px" />
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@ class MainTanner extends React.Component {
                         {maintanner.map((item) => {
                             return (
                                 <div key={item.id}>
-                                    <div><Link to={`${match.url}/${item.id}`}><img src={item.image} /></Link></div>
+                                    <div><Link to={`${match.url}/${item.id}`}><img src={item.image} alt="tanner img" /></Link></div>
                                     <div className={style.title}>{item.title}</div>
                                     <div className={style.brandName}>{item.brand}</div>
                                     <div className={style.price}>{item.price}</div>

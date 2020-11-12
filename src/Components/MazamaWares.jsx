@@ -23,7 +23,7 @@ class MazamaWares extends React.Component {
                         {mazamawares.map((item) => {
                             return (
                                 <div key={item.id}>
-                                    <div><Link to={`${match.url}/${item.id}`}><img src={item.image} /></Link></div>
+                                    <div><Link to={`${match.url}/${item.id}`}><img src={item.image} alt="mazama" /></Link></div>
                                     <div className={style.title}>{item.title}</div>
                                     <div className={style.brandName}>{item.brand}</div>
                                     <div className={style.price}>{item.price}</div>

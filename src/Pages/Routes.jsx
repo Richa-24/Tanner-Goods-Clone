@@ -13,7 +13,7 @@ import AboutUs from '../Components/AboutUs'
 import ContactUs from '../Components/ContactUs'
 import FAQ from '../Components/FAQ'
 import ProductDetails from '../Components/ProductDetails'
-import { Route, Redirect } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import ShoppingCart from '../Components/ShoppingCart'
 
 
@@ -29,7 +29,7 @@ export default class Routes extends React.Component {
 
     componentDidMount() {
         console.log(window.location.href);
-        if (window.location.href[(window.location.href.length - 1)] == "/") {
+        if (window.location.href[(window.location.href.length - 1)] === "/") {
             window.location.href = "/maintanner"
         }
     }
